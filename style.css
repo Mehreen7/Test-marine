@@ -1,0 +1,189 @@
+* {
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  background-color: #F5F5FB;
+  }
+ 
+
+
+  /* The sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 272px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #FFFFFF;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/*Logo in nav bar*/
+
+.sidenav .logo{
+  position: absolute;
+  width: 131px;
+  height: 48px;
+  left: 71px;
+  top: 37px;
+  background-color: #FFFFFF; 
+}
+
+/* Button join*/
+
+.sidenav .button-join{
+  position: absolute;
+  width: 192px;
+  height: 48px;
+  left: 40px;
+  top: 133px;
+  background-color: #FFFFFF; 
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 50px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #8DA1B5  ;
+  display: block;
+  background-color: #FFFFFF; 
+}
+
+
+.sidenav .menu{
+  position: absolute;
+  width: 200px;
+  height: 356.99px;
+  left: 72px;
+  top: 232px;
+  background-color: #FFFFFF; 
+}
+/* upgrade card*/
+.sidenav .card-update .card .card-body{
+  position: absolute;
+width: 192px;
+height: 274px;
+left: 40px;
+top: 885px;
+background-color:#F5F5FB;
+color: #778DAD;
+margin-bottom: 50px;
+}
+
+/* Style page content */
+.main {
+  margin-left: 272px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+  background-color: #F5F5FB;
+  word-wrap: break-word;
+  height: 100px;
+}
+
+.main .search-bar{
+  position: absolute;
+width: 472px;
+height: 56px;
+left: 312px;
+top: 56px;
+}
+
+.main .nav-bar{
+  position: absolute;
+width: 871px;
+height: 37px;
+left: 313px;
+top: 159px;
+
+}
+
+.main .notification{
+  position: absolute;
+  width: 20px;
+  height: 25.1px;
+  left: 1164px;
+  top: 68px;
+  
+}
+.main .card-UI{
+  position: absolute;
+  width: 872px;
+  height: 363px;
+  left: 312px;
+  top: 232px;
+  background-image:url("images/UI.png");
+}
+
+.main .card-photography{
+  position: fixed;
+  width: 415px;
+  height: 311px;
+  left: 312px;
+  top: 637px;
+  background-color:#F5F5FB;
+  background-image:url("images/photography.png");
+}
+
+.main .card-animation{
+  position: fixed;
+  width: 415px;
+  height: 311px;
+  left: 772px;
+  top: 637px;
+  background-color:#F5F5FB;
+  background-image:url("images/animation.png");
+}
+
+.sidenav-d{
+  position: fixed;
+width: 384px;
+height: 100%;
+left: 1225px;
+top: 3px;
+background-color: #FFFFFF;
+overflow-x: hidden; /* Disable horizontal scroll */
+padding-top: 20px;
+}
+
+.sidenav-d .nav-profil{
+  position: absolute;
+width: 240px;
+height: 56px;
+left: 1251px;
+top: 7px;
+background-color: #FFFFFF;
+}
+
+.sidenav-d .progress-block{
+  position: absolute;
+width: 312px;
+height: 251px;
+left: 1251px;
+top: 141px;
+}
+
+.sidenav-d .card-download{
+  position: absolute;
+  width: 312px;
+  height: 225.69px;
+  left: 1251px;
+  top: 703px;
+  background-color:#F5F5FB;
+  background-image:url("images/download.png");
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+  .sidenav .card {padding-top: 15px;}
+  .main {font-size: 18px}
+  .search-bar{max-width: 450px}
+  .main .card{max-width: 400px}
+  .sidenav-d {padding-top: 15px;}
+  .sidenav-d a {font-size: 18px;}
+  .sidenav-d .card {padding-top: 15px;}
+}
+
